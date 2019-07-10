@@ -1,0 +1,30 @@
+.container {
+    margin-top: 30px;
+}
+
+.form-box {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px #aaaaaa;
+}
+
+#email{
+    margin: 5px;
+}
+
+// input {
+//     &.ng-invalid {
+//         &.ng-touched {
+//         border: 1px solid red;
+//     }
+// }
+// }
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+    }
+select.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+// This is the CSS syntax of the commented command 
